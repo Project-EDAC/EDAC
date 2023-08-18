@@ -1,0 +1,17 @@
+package com.app.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "event")
+public class Event extends BaseEntity {
+
+	@Column(name = "event_description")
+	private String eventDescription;
+	
+	private LocalDate date;
+}

@@ -1,0 +1,9 @@
+package com.app.service;
+
+import com.app.dto.SignInResponse;
+
+public interface AdminService {
+	
+	SignInResponse signInAdmin(SignRequest signRequest);
+
+}

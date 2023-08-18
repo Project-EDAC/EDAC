@@ -1,0 +1,8 @@
+package com.app.entities;
+
+public class Subject extends BaseEntity {
+	
+	private String name;
+	
+
+}

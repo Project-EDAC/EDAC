@@ -1,0 +1,8 @@
+package com.app.entities;
+
+public class Assignment extends BaseEntity {
+	
+	private String assignmentDescription;
+	private Student 
+
+}
