@@ -1,0 +1,9 @@
+export const LOGIN_ADMIN = "LOGIN_ADMIN"
+export const LOGOUT_ADMIN = "LOGOUT_ADMIN"
+
+
+export const LOGIN_STUDENT = "LOGIN_STUDENT"
+export const LOGOUT_STUDENT = "LOGOUT_STUDENT"
+
+export const LOGIN_FACULTY = "LOGIN_FACULTY"
+export const LOGOUT_FACULTY = "LOGOUT_FACULTY"
